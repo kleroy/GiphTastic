@@ -1,0 +1,31 @@
+body {
+background-image: url("../images/musicbkg.jpeg");
+position: relative;
+overflow: hidden;
+clear:both;
+width: 1000px; 
+height: 800px; 
+margin:20px auto 0;
+color: #000;
+text-shadow: 1px 1px #ccc;
+border:solid #000 1px;
+box-shadow: 2px 2px 5px #000;
+}
+
+main{
+    position: relative;
+    
+    background-color: rgb(24, 19, 19);
+    color: red;
+    width: 900px;
+    height: 700px;
+}
+
+.myAdd{
+    border-bottom-left-radius: 45px;
+    background-color: rgb(42, 42, 63);
+}
+
+.whatYouGot{
+    background-color: rgb(158, 149, 149);
+}
