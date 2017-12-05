@@ -1,5 +1,12 @@
-body {
-background-image: url("../images/musicbkg.jpeg");
+html {
+    background-image: url("../images/bkgII.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*body {
+background-image: url("../images/bkgII.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 position: relative;
 overflow: hidden;
 clear:both;
@@ -10,17 +17,39 @@ color: #000;
 text-shadow: 1px 1px #ccc;
 border:solid #000 1px;
 box-shadow: 2px 2px 5px #000;
-}
+}*/
 
 main{
-    position: relative;
-    
+    position: absolute;
+    /*left: 10px;*/ 
     background-color: rgb(24, 19, 19);
     color: red;
-    width: 900px;
-    height: 700px;
+    /*width: 900px;
+    height: 700px;*/
 }
 
+.col-md-4{
+    height: 100%
+}
+.leftPane{
+    background-color: red;
+    float: left;
+    
+}
+.btnsContainer{
+    position: relative;
+}
+.midPane{
+    background-color: blue;
+   /* float: left;
+    max-width: 800;
+    height: cover;*/
+    }
+.output{
+    background-color: white
+
+
+}
 .myAdd{
     border-bottom-left-radius: 45px;
     background-color: rgb(42, 42, 63);
@@ -28,4 +57,17 @@ main{
 
 .whatYouGot{
     background-color: rgb(158, 149, 149);
+}
+.preFlix{
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 50%;
+    /*margin-left: 10%;*/
+    background-color: darkslategray;
+    color: white;
+}
+#mobster-input{
+    ()
 }
